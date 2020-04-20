@@ -1,0 +1,44 @@
+*{
+	
+}
+
+.navbar-brand{
+	margin-left: 100px;
+}
+
+.navbar-nav{
+	margin-right: 100px;
+}
+
+.logo{
+	width:	60px;
+	
+}
+
+.hero{
+	width: 100%;
+}
+
+.hero-text h1{
+	padding: 180px;
+}
+
+@media only screen and (max-width: 700px){
+
+	.navbar-brand{
+		margin-left: 0px;
+	}
+
+	.navbar-nav{
+		margin-right: 0px;
+	}
+
+	.hero-text h1{
+	padding: 20px;
+	}
+
+	.hero-text{
+		text-align: center;
+	}
+
+}
